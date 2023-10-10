@@ -1,0 +1,161 @@
+/* Apply these styles to the navbar */
+.body{
+    font-family: 'Kanit', sans-serif;
+}
+.navbar {
+    background-color: #f70d0d !important; /* Yellow color */
+    /* ... rest of your navbar styles */
+}
+
+.navbar-brand {
+    color: #faf3f3; /* Text color for the brand */
+}
+
+.navbar-nav .nav-link {
+    color: #f1efef; /* Text color for the links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0ef878; /* Hover color for the links */
+}
+
+
+/* Apply these styles to the homepage text section */
+.banner {
+    background-color: rgb(51, 180, 240);
+    text-align: center;
+    image-rendering: crisp-edges;
+    font-family: 'kanit',sans-serif;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+
+    
+}
+
+.banner h1{
+    color: rgb(229, 255, 0);
+}
+
+.banner h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #fcf9f9;
+    
+}
+
+.banner ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #dd1111;
+}
+
+.banner a.btn-primary {
+    background-color: #ff5722;
+    border-color: #ff5722;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.banner a.btn-primary:hover {
+    background-color: #e64a19;
+    border-color: #e64a19;
+}
+.card
+{
+  color: #0ef878;
+    display: flex;
+    transition: all 0.3s ease;
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+   
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+.card:hover
+{
+  color: #0ef878;
+  transform: scale(1.05);
+  box-shadow: 0 0 5px rgba(221, 14, 14, 0.3);
+}
